@@ -1,5 +1,5 @@
 experiment_name: LSTM_CAMELS_DE
-path_data: data/CAMELS_DE
+path_data: data/CAMELS-DE
 path_entities: data/basin_id/basins_camels_de_50.txt
 dynamic_input:
 - precipitation_mean
@@ -49,3 +49,4 @@ random_seed: 110
 dataset: camels_de
 model: cudalstm
 initial_forget_bias: 3.0
+path_save_folder: results
